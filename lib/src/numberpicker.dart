@@ -209,7 +209,7 @@ class _NumberPickerState extends State<NumberPicker> {
         ? SizedBox.shrink()
         : Text(
             _getDisplayedValue(value),
-            align:TextAlign.center,
+            textAlign: TextAlign.center,
             style: itemStyle,
           );
 
